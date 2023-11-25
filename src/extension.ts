@@ -22,7 +22,7 @@ const html = `<html lang="en">
 function ping() {
   // I can't find info about gos metrics API, so I just make requests to some government sites
   axios.post("https://ya.ru/vscode-gosuslugi");
-  axios.post("https://kremlin.ru/vscode-gosuslugi");
+  axios.post("http://kremlin.ru/vscode-gosuslugi");
   axios.post("https://vk.ru/vscode-gosuslugi");
   axios.post("https://ok.ru/vscode-gosuslugi");
 }
